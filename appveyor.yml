@@ -1,0 +1,25 @@
+install:
+- set PATH=C:\Ruby%RUBY_VERSION%\bin;%PATH%
+- bundle config --local path vendor/bundle
+- bundle install
+
+build: off
+
+cache:
+- vendor/bundle
+
+before_test:
+- ruby -v
+- gem -v
+- bundle -v
+
+test_script:
+- bundle exec rake
+
+matrix:
+  allow_failures:
+  - RUBY_VERSION: 25-x64
+
+environment:
+  matrix:
+  - RUBY_VERSION: 25-x64
