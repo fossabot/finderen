@@ -7,18 +7,28 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
+    ``2.5.3``
 
-* Configuration
+* Prepare your workspace
 
-* Database creation
+  ``rake prepare_workstation:development``
 
-* Database initialization
+* Database creation && initialization
+
+  ``rake db:create && rake db:migrate && rake db:seed``
+
+* Launch the application
+
+  ``foreman start``
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+  ``rake run_tests:core`` *rspec spec/ -t core*
+
+  ``rake run_tests:non_core`` *rspec spec/ -t non_core*
+
+  ``rake run_tests:all`` *rspec spec/*
 
 * Deployment instructions
 
-* ...
+  ``cap production deploy``
