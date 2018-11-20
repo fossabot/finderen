@@ -20,6 +20,7 @@ gem 'foreman'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'codecov', :require => false
   gem 'rspec-rails'
   gem 'rails-controller-testing'
   gem 'database_cleaner'

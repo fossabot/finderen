@@ -3,7 +3,10 @@
 [![Build Status](https://travis-ci.org/Tivgres/finderen.svg?branch=master)](https://travis-ci.org/Tivgres/finderen)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4e1a39205c5ff4562720/maintainability)](https://codeclimate.com/github/Tivgres/finderen/maintainability)
 [![Build status](https://ci.appveyor.com/api/projects/status/r219jhw6o8s5omhb?svg=true)](https://ci.appveyor.com/project/Tivgres/finderen)
-(not fully configured CI)
+[![codecov](https://codecov.io/gh/Tivgres/finderen/branch/master/graph/badge.svg)](https://codecov.io/gh/Tivgres/finderen)
+
+[![codecov](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg)](https://github.com/Tivgres/finderen/blob/master/LICENSE.md)
+
 
 **Initial information:**
 
