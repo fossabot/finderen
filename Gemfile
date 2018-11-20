@@ -16,6 +16,7 @@ gem 'dotenv-rails'
 gem 'friendly_id'
 gem 'mini_magick'
 gem 'bootsnap', require: false
+gem 'foreman'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
